@@ -1,0 +1,25 @@
+projects:
+  web:
+    type: application
+    root: apps/web
+    dependsOn: ["api", "features/foo", "features/bar"]
+
+  api:
+    type: application
+    root: apps/api
+
+  features/foo:
+    type: library
+    root: packages/features/foo
+
+  features/bar:
+    type: library
+    root: packages/features/bar
+
+  ui:
+    type: library
+    root: packages/ui
+
+  server:
+    type: library
+    root: packages/server
