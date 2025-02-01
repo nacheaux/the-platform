@@ -1,0 +1,12 @@
+project:
+  name: web
+  description: The web app for the platform
+
+tasks:
+  dev:
+    command: bunx --bun vite
+    args: []
+    inputs:
+      - src/**
+    outputs:
+      - dist
