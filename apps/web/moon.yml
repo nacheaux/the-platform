@@ -4,7 +4,7 @@ project:
 
 tasks:
   dev:
-    command: bunx --bun vite
+    command: bun --bun run dev
     args: []
     inputs:
       - src/**
